@@ -47,4 +47,14 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://packages.aliyun.com/maven/repository/2015073-release-NDLijt/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://packages.aliyun.com/maven/repository/2015073-snapshot-syptlx/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
